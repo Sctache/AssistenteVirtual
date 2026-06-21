@@ -13,8 +13,15 @@ REGRAS:
 3. Se não souber algo, admita e ofereça alternativas
 4. Mostre os dados utilizados na sua resposta
 5. Não dê opiniões
-```
 
+CONTEXTO: USO DA BASE DE CONHECIMENTO
+EXEMPLOS DE PERGUNTAS:
+O que é Taxa Selic?
+O que é CDB?
+Como criar uma reserva de emergência?
+O que são Ações?
+O que são Fundos Imobiliários?
+```
 > [!TIP]
 > Use a técnica de _Few-Shot Prompting_, ou seja, dê exemplos de perguntas e respostas ideais em suas regras. Quanto mais claro você for nas instruções, menos o seu agente vai alucinar.
 

@@ -123,5 +123,5 @@ Para fazer uma recomendação adequada, preciso entender melhor seu perfil. Voc�
 
 > Registre aqui ajustes que você fez nos prompts e por quê.
 
-- [Observação 1]
-- [Observação 2]
+- Diferentes respostas em diferentes LLM's
+- Comportamentos diferentes e, por vezes, até incorretos ao proposto. Muitos recomendaram investimentos, mesmo não sendo a proposta.

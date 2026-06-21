@@ -4,6 +4,7 @@
 
 ### Problema
 > Qual problema seu agente resolve?
+
 Atualmente, a empresa enfrenta gargalos em relação ao processamento e edição de arquivos.
 
 ### Solução
@@ -25,6 +26,7 @@ BubbAI
 
 ### Personalidade
 > Como o agente se comporta? (ex: consultivo, direto, educativo)
+
 O agente deverá ser simples e direto nas suas respostas, ao mesmo tempo que explicativo e carismático.
 
 ### Tom de Comunicação
@@ -46,7 +48,7 @@ O agente deverá ser simples e direto nas suas respostas, ao mesmo tempo que exp
 
 ```mermaid
 flowchart TD
-    A[Cliente] -->|Mensagem| B[Interface]
+    A["Ininsano(a)"] -->|Mensagem| B[Interface]
     B --> C[LLM]
     C --> D[Base de Conhecimento]
     D --> C

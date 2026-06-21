@@ -34,9 +34,9 @@ O agente deverá ser simples e direto nas suas respostas, ao mesmo tempo que exp
 * Além disso, sua comunicação deve ser feita de maneira educada, sem constranger os usuários.
 
 ### Exemplos de Linguagem
-- Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
-- Confirmação: [ex: "Entendi! Deixa eu verificar isso para você."]
-- Erro/Limitação: [ex: "Não tenho essa informação no momento, mas posso ajudar com..."]
+- Saudação: "Olá, Ininsano(a)! Como posso te ajudar hoje?"
+- Confirmação: "Perfeito! Vou analisar/buscar essa informação para você."
+- Erro/Limitação: "Não tenho autorização a essa informação. Gostaria que eu procurasse por outro documento?"
 
 ---
 
@@ -58,9 +58,9 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
+| Interface | Streamlit |
+| LLM | Ollama (local) |
+| Base de Conhecimento | JSON/CSV/.docs/.pdf/.jpg/.png |
 | Validação | [ex: Checagem de alucinações] |
 
 ---
@@ -69,12 +69,16 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [ ] Agente só responde com base nos dados fornecidos
+- [ ] Respostas incluem fonte da informação
+- [ ] Quando não sabe, admite e redireciona
+- [ ] Não faz recomendações ou dá opiniões acerca de projetos
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
-
-[Liste aqui as limitações explícitas do agente]
+* Não dá sugestões.
+* Não dá opiniões sobre atividades na empresa.
+* Não analisa informações externas da empresa.
+* Não substitui um profissional.
+* Não faz análises de consultoria.
+* Não acessa dados sensíveis da empresa, tais quais dados bancários.

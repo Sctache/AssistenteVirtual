@@ -8,12 +8,12 @@
 ### 1. O Problema (30 seg)
 > Qual dor do cliente você resolve?
 
-[Sua descrição aqui]
+Entender um pouco mais sobre o mercado financeiro
 
 ### 2. A Solução (1 min)
 > Como seu agente resolve esse problema?
 
-[Sua descrição aqui]
+A partir de um banco de dados elaborado a partir de vivências reais
 
 ### 3. Demonstração (1 min)
 > Mostre o agente funcionando (pode ser gravação de tela)
@@ -23,7 +23,7 @@
 ### 4. Diferencial e Impacto (30 seg)
 > Por que essa solução é inovadora e qual é o impacto dela na sociedade?
 
-[Sua descrição aqui]
+Esse Assistente Virtual responde automaticamente a perguntas sobre o mercado financeiro de maneira segura, utilizando fontes seguras. 
 
 ---
 
